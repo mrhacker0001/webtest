@@ -1,0 +1,56 @@
+.Navbar {
+    width: 100dvw;
+    height: 10dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3dvw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+}
+
+.logo {
+    width: 7dvw;
+}
+
+.tags {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2dvw;
+}
+
+.tags a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.search-card {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2dvw;
+}
+
+.search-card img {
+    width: 1.5dvw;
+}
+
+.search-card button {
+    width: 6dvw;
+    height: 4dvh;
+    background: none;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5dvh;
+}
+
+.Home img {
+    position: relative;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.first-page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    backdrop-filter: blur(20px);
+}
