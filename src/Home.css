@@ -25,5 +25,41 @@
     width: 100dvw;
     height: 100dvh;
     display: flex;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
+}
+
+.text {
+    width: 50dvw;
+    height: 40dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    top: 30dvh;
+    left: 5dvw;
+    gap: 2dvh;
+}
+
+.text h1 {
+    font-size: 38px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.text span {
+    font-weight: 500;
+    color: rgb(115, 196, 35);
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text p{
+    font-size: 18px;
+    width: 60%;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
